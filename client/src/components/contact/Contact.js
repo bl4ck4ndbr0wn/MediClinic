@@ -20,8 +20,8 @@ class Contact extends Component {
                     <span class="lnr lnr-home" />
                   </div>
                   <div class="contact-details">
-                    <h5>Binghamton, New York</h5>
-                    <p>4343 Hinkle Deegan Lake Road</p>
+                    <h5>Nairobi, Kenya</h5>
+                    <p>1234 Juja Nairobi</p>
                   </div>
                 </div>
                 <div class="single-contact-address d-flex flex-row">
@@ -29,7 +29,7 @@ class Contact extends Component {
                     <span class="lnr lnr-phone-handset" />
                   </div>
                   <div class="contact-details">
-                    <h5>00 (958) 9865 562</h5>
+                    <h5>+ (254) 7233 42097</h5>
                     <p>Mon to Fri 9am to 6 pm</p>
                   </div>
                 </div>
@@ -38,7 +38,7 @@ class Contact extends Component {
                     <span class="lnr lnr-envelope" />
                   </div>
                   <div class="contact-details">
-                    <h5>support@colorlib.com</h5>
+                    <h5>support@alpha.com</h5>
                     <p>Send us your query anytime!</p>
                   </div>
                 </div>
