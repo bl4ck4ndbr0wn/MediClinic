@@ -1,0 +1,41 @@
+{
+  "name": "habacosmetics",
+  "version": "1.0.0",
+  "description": "Hello, we are habas,your new premium cosmetics and makeups delivery service. The ideal distributors of quality affordable",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bl4ck4ndbr0wn/cosmetic-distributors.git"
+  },
+  "keywords": [
+    "cosmetics",
+    "makeup",
+    "delivery",
+    "service",
+    "quality",
+    "and",
+    "affordable",
+    "cosmetics",
+    "distributors"
+  ],
+  "author": "Alpha Nganga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bl4ck4ndbr0wn/cosmetic-distributors/issues"
+  },
+  "homepage": "https://github.com/bl4ck4ndbr0wn/cosmetic-distributors#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"}
+}
